@@ -16,4 +16,3 @@ while acao=="I" or acao=="E" or acao=="L" or acao=="P":
         login=input("Informe o usuário para busca: ").upper()
         pesquisar(usuarios,login)
     acao = perguntar()
-    print('teste')
