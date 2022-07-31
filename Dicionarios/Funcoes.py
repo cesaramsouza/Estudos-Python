@@ -1,5 +1,5 @@
 def perguntar():
-    resposta = input(' "I" - Inserir um usuário \n "E" - Excluir um usuário \n "L" - Listar o usuário \n "P - Pesquisar usuário \n Aperte "ENTER" para finalizar \n O que deseja fazer?').upper()
+    resposta = input(' "I" - Inserir um usuário \n "E" - Excluir um usuário \n "L" - Listar o usuário \n "P" - Pesquisar usuário \n "S" - Para salvar usuário \n Aperte "ENTER" para finalizar \n O que deseja fazer?').upper()
     return resposta
 
 def inserir(dicionario):
@@ -25,3 +25,8 @@ def listar(dicionario):
         print("Objeto...........")
         print("Login: ",chave)
         print("Dados: ",valores)
+
+def salvar(dicionario):
+    with open("login_e_dados.txt", "a") as arquivo:
+        for chave, valores in dicionario.items():
+            arquivo.write(chave + ":" + str(valores))
