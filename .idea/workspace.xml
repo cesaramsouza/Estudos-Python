@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a971003f-f867-4b64-8346-e5655f03056a" name="Changes" comment="" />
+    <list default="true" id="a971003f-f867-4b64-8346-e5655f03056a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dicionarios/Funcoes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dicionarios/Funcoes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dicionarios/ManagerUsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dicionarios/ManagerUsers.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

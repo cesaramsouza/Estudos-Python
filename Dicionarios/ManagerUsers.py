@@ -9,10 +9,17 @@ while acao=="I" or acao=="E" or acao=="L" or acao=="P":
         inserir(usuarios)
 
     elif acao=="E":
-        print('teste')
+
+        login = input("Informe o usuário a ser excluído: ").upper()
+        deletar(usuarios,login)
+
     elif acao=="L":
-        print('teste')
+
+        listar(usuarios)
+
     elif acao=="P":
+
         login=input("Informe o usuário para busca: ").upper()
         pesquisar(usuarios,login)
+
     acao = perguntar()

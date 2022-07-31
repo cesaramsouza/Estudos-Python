@@ -14,3 +14,14 @@ def pesquisar(dicionario,chave):
         print("Nome...........: " + lista[0])
         print("Último acesso..: " + lista[1])
         print("Última estação.: " + lista[2])
+
+def deletar(dicionario,chave):
+    if dicionario.get(chave):
+        del dicionario[chave]
+    print("Usuário "+chave+" deletado")
+
+def listar(dicionario):
+    for chave,valores in dicionario.items():
+        print("Objeto...........")
+        print("Login: ",chave)
+        print("Dados: ",valores)
